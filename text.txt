@@ -1,0 +1,41 @@
+1) file structure -- css?
+2) using existing infrastructure to create html file to run timer
+3) adding sound to timer at intervals
+
+4) look into 
+
+---
+4) figuring out how to make it a chrome app 
+
+part 2: adding styling to the extension button? 
+
+
+
+
+
+Part 1: Introduction and overview
+
+Part 2: DOM manipulation and Chrome developer tools
+
+Part 3: JSON and configuration
+
+Creating a manifest file
+Adding the key pieces to the manifest (with JSON)
+Creating the main JavaScript file
+Inserting our DOM manipulation code in the JavaScript file
+Running the unpackaged extension in Chrome
+
+Part 4: Libraries and jQuery
+
+Introducing jQuery to make our DOM manipulation easier
+Dependencies: Adding jQuery into manifest
+Using jQuery to append an image to the DOM and add our custom text: "Get back to achieving your coding dreams"
+Adding a CSS class to the element (using a CSS style file)
+Part 5: Asynchronous callbacks and the JavaScript engine
+
+Introducing the JavaScript engine and how it fits in the browser setup
+Asynchronous callbacks - web APIs, event queue
+Part 6: APIs and Ajax
+
+Using Unsplash API to return a random image each time we load youtube.com
+1) create 
