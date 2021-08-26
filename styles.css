@@ -1,16 +1,18 @@
 
 h1 {
-  /* text-align: center; */
+  text-align: center;
+  /* display: flex; */
   position: center;
   position: relative;
-  left: 48%;
+  /* left: 50%; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-    /* position: center; */
-    width: 100%;
-    height: 100%;
+  position: center;
+  position: relative;  
+    width: 400px; 
+    height: 200px;
     /* margin: 0 auto;  */
 
     /* background-color: rgb(rgb(155, 113, 79), green, blue) */
@@ -28,16 +30,16 @@ body {
   padding: 10px;
   font-size: 30px;
   font-family: verdana; */
-
+  /* display: flex; */
   position: center;
-  margin: 30px auto;
-  height: 100px;
-  width: 25%;
+  margin: 20px auto;
+  height: 75px;
+  width: 50%;
   border-radius: 10%;
-  position: relative;
-  left: 40%;
-
-  /* left: 50% */
+  position: absolute;
+  /* left: 40%; */
+  left: 25%;
+  bottom: 30%;
 
   background-color: rgb(228, 219, 190);
   /* border: 10px solid #5c1616; */
@@ -47,35 +49,36 @@ body {
   text-align: center;
   vertical-align: middle;
   /* color: white; */
-  line-height: 100px;
+  line-height: 5px;
   /* text-color: black; */
 }
 
 #reset {
+  
   margin: auto;
-  width: 10%;
+  width: 25%;
   /* border: 3px solid rgb(94, 96, 5); */
   padding: 10px;
   font-size: 15px;
   font-family: verdana;
-  position: relative;
-  left: 45%;
+  position: absolute;
+  right: 20%;
+  bottom: 5%;
 
-  /* left: 55%; */
+  /* left: 75%; */
 }
 
 #pause {
   margin: auto;
-  width: 10%;
+  width: 25%;
   /* border: 3px solid rgb(94, 96, 5); */
   padding: 10px;
   font-size: 15px;
   font-family: verdana;
-  position: relative;
-  left: 40%;
-
-
-  /* left: 50%; */
+  position: absolute;
+  left: 20%;
+  bottom: 5%;
+  
 
   /* margin: 0 auto;
   display: flex;
