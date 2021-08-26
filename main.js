@@ -1,12 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
- 
- 
- 
- 
-    var displayButton = document.querySelector('#timer');
+ var displayButton = document.querySelector('#timer');
  var pauseButton = document.querySelector('#pause');
  var resetButton = document.querySelector('#reset');
- let input = inputReassignment();
+ let input = '00:00:00';
  let totalSeconds = (parseInt(input[0], 10) * 3600) + (parseInt(input[1] ,10) * 60) + parseInt(input[2],10);
  console.log(totalSeconds);
 
@@ -14,11 +10,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // event listener for timer button countDown reassignment
-displayButton.addEventListener("click", inputReassignment());
+displayButton.addEventListener("click", function(){
+    input = inputReassignment();
+    totalSeconds = (parseInt(input[0], 10) * 3600) + (parseInt(input[1] ,10) * 60) + parseInt(input[2],10);
+    startTimer(totalSeconds);
+});
 
-pauseButton.addEventListener("click", () => alert('heyyy'));
+pauseButton.addEventListener("click", () => clearInterval);
 
-resetButton.addEventListener("click", () => alert('suppp'));
+resetButton.addEventListener("click", () => (location.reload()));
 
 function inputReassignment() { 
 
@@ -37,7 +37,7 @@ function inputReassignment() {
 }
 input = inputArr;
  // call the start timer again with new duration
- startTimer(totalSeconds);
+ return input;
 }    
 
 function startTimer(totalSeconds) {
