@@ -1,24 +1,81 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 h1 {
-  text-align: center;
+  /* text-align: center; */
+  position: center;
+  position: relative;
+  left: 48%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#body {
+body {
     /* position: center; */
     width: 100%;
     height: 100%;
-    margin: 0 auto; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* display: flex;
+    /* margin: 0 auto;  */
+
+    /* background-color: rgb(rgb(155, 113, 79), green, blue) */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
     flex-direction: row;
     justify-content: center; */
   }
 
+#timer {
+ 
+  /* margin: auto;
+  width: 25%;
+  border: 3px solid rgb(94, 96, 5);
+  padding: 10px;
+  font-size: 30px;
+  font-family: verdana; */
+
+  position: center;
+  margin: 30px auto;
+  height: 100px;
+  width: 25%;
+  border-radius: 10%;
+  position: relative;
+  left: 40%;
+
+  /* left: 50% */
+
+  background-color: rgb(228, 219, 190);
+  /* border: 10px solid #5c1616; */
+  /* box-shadow: 4px 4px 4px #999; */
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  /* color: white; */
+  line-height: 100px;
+  /* text-color: black; */
+}
+
+#reset {
+  margin: auto;
+  width: 10%;
+  /* border: 3px solid rgb(94, 96, 5); */
+  padding: 10px;
+  font-size: 15px;
+  font-family: verdana;
+  position: relative;
+  left: 45%;
+
+  /* left: 55%; */
+}
+
+#pause {
+  margin: auto;
+  width: 10%;
+  /* border: 3px solid rgb(94, 96, 5); */
+  padding: 10px;
+  font-size: 15px;
+  font-family: verdana;
+  position: relative;
+  left: 40%;
+
+
+  /* left: 50%; */
 
   /* margin: 0 auto;
   display: flex;
@@ -26,5 +83,9 @@ h1 {
   justify-content: space-around;
   width: 8rem;
   border-style:solid;
-  border-color:#287EC7;
-  padding: 10px; */
+  /* border-color: #287EC7; */
+  /* padding: 10px;  */ 
+}
+
+
+  
